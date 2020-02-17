@@ -180,7 +180,7 @@ export default {
   },
   created() {
     var vm = this;
-    var url = 'http://www.reddit.com/r/all/.json?limit=5&json=?';
+    var url = 'https://www.reddit.com/r/all/.json?limit=5&json=?';
     var req = new XMLHttpRequest();
     req.onreadystatechange = function() {
       if ( req.readyState == 4 && req.status == 200 ) {
