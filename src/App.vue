@@ -82,12 +82,16 @@ export default {
             'url': 'https://www.wbtv.com/weather/'
           },
           {
-            'title': 'Maps',
-            'url': 'https://www.google.com/maps'
+            'title': 'NY Times',
+            'url': 'https://www.nytimes.com/'
           },
           {
             'title': 'LinkedIn',
             'url': 'https://www.linkedin.com/feed/'
+          },
+          {
+            'title': 'Maps',
+            'url': 'https://www.google.com/maps'
           }
         ],
         'dev': [
@@ -136,8 +140,12 @@ export default {
             'url': 'https://www.bankofamerica.com/'
           },
           {
-            'title': 'Amex',
+            'title': 'Amex Card',
             'url': 'https://www.americanexpress.com/'
+          },
+          {
+            'title': 'Amex Savings',
+            'url': 'https://personalsavings.americanexpress.com/'
           },
           {
             'title': 'Citi',
@@ -150,10 +158,6 @@ export default {
           {
             'title': 'Fidelity',
             'url': 'https://digital.fidelity.com/prgw/digital/login/full-page?AuthRedUrl=https://oltx.fidelity.com/ftgw/fbc/ofsummary/defaultPage'
-          },
-          {
-            'title': 'ML',
-            'url': 'https://www.benefits.ml.com/login/login'
           }
         ],
         'utils': [
